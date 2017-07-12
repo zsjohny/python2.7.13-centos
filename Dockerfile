@@ -3,7 +3,7 @@ LABEL MAINTAINER Johny Zheng <shun.johny@gmail.com>
 
 WORKDIR /tmp
 
-RUN yum -y install wget sqlite-devel xz gcc automake zlib-devel openssl-devel; yum clean all
+RUN yum -y install wget sqlite-devel xz gcc automake zlib-devel openssl-devel curl; yum clean all
 
 # Install Python
 RUN wget https://www.python.org/ftp/python/2.7.13/Python-2.7.13.tar.xz && \
