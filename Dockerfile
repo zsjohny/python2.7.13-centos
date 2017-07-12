@@ -15,6 +15,7 @@ RUN ln -s /usr/local/bin/python2 /usr/bin/python
 RUN sed -i 's@/usr/bin/python@/usr/bin/python2@g' /usr/bin/yum
 
 # Install Pip
+#https://www.liquidweb.com/kb/how-to-install-pip-on-centos-7/
 curl "https://bootstrap.pypa.io/get-pip.py" -o "get-pip.py"
 python get-pip.py
 
