@@ -1,4 +1,4 @@
-FROM centos:centos6
+FROM centos:centos6.9
 LABEL MAINTAINER Johny Zheng <shun.johny@gmail.com>
 
 WORKDIR /tmp
